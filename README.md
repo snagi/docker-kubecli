@@ -1,2 +1,3 @@
 # docker-kubecli
-Minimal docker image with bash, kubectl, kubectx and kubens
+
+Minimal docker image with bash, kubectl, kubectx and kubens commandline tools
