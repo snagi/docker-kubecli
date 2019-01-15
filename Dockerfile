@@ -1,6 +1,6 @@
 FROM bash:5
 
-ENV KUBE_VERSION "1.11.6"
+ENV KUBE_VERSION "1.12.4"
 
 COPY config-icp-kube /usr/local/bin/config-icp-kube
 RUN apk --no-cache add ncurses ca-certificates openssl curl jq \
